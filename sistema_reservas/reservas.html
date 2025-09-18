@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Reserva tu cita</h1>
+        <form onsubmit="return reservar(event)">
+            <input type="text" id="paciente" placeholder="Nombre del paciente" required>
+            <input type="date" id="fecha" required>
+            <input type="time" id="hora" required>
+            <button type="submit">Reservar</button>
+        </form>
+        <a href="menu.html" class="btn">⬅ Volver al menú</a>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
